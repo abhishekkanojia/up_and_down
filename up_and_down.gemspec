@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Site Up and Down for rails application."
   spec.description   = "Easily make your application up or down for maintenance"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/abhishekkanojia/up_and_down"
   spec.license       = "MIT"
 
   if spec.respond_to?(:metadata)
