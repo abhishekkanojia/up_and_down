@@ -12,13 +12,14 @@ class UpAndDownGenerator < Rails::Generators::Base
   end
 
   def create_route
-    route "root 'up_and_down/base#index'"
+    route "match '(*path)', to: 'up_and_down/base#index', via: :all"
   end
 
   private
 
     def controller_definition
-      "class UpAndDown::BaseController < ApplicationController
+      "class UpAndDown::BaseController < ActionController::Base
+        layout false
         def index
         end
       end"
