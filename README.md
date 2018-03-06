@@ -7,7 +7,7 @@ Make your rails application down for maintenance. This gem provides three rake t
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'up_and_down'
+gem 'up_and_down', '~> 0.1.1'
 ```
 
 And then execute:
